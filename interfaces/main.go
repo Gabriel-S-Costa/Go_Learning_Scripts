@@ -25,9 +25,9 @@ func (c Circle) Area() float64 {
 	return math.Pi * c.radius * c.radius
 }
 
-func calculateArea(s Shape) float64 {
-	return s.Area()
-}
+// func calculateArea(s Shape) float64 {
+// 	return s.Area()
+// }
 
 func main() {
 	rect := Rectangle{width: 5, heigth: 4}
